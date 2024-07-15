@@ -55,6 +55,9 @@ const Navbar = () => {
 
   return (
     <div className="relative">
+      <div className="text-center font-bold text-2xl">
+        This Site is Under Construction
+      </div>
       <div
         onClick={toggleMenu}
         className="fixed top-4 right-4 z-50 p-2 text-white rounded"
