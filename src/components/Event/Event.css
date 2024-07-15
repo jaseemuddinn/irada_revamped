@@ -1,0 +1,26 @@
+/* src/styles.css */
+.text-image {
+    font-size: 7xl;
+    font-weight: bold;
+    background: url('/path/to/your/earth-image.jpg') no-repeat center center; /* Use a static image for now */
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    position: relative;
+    z-index: 1;
+    -webkit-text-stroke: 4px white; /* Add text stroke */
+    text-stroke: 2px white; /* For other browsers */
+  }
+  
+  .earth-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+  }
+  
